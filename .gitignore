@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+build/
+dist/
+
+# Env files
+.env
+
+# Excel files
+*.xlsx

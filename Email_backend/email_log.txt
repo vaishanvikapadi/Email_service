@@ -1,0 +1,91 @@
+2026-04-15 17:25:57  INFO      ── Sending email ──  to=prasen.mhaskar@quantafic.com  from=vaishnavi.kapadi@quantafic.com  subject='hello Prasen '  host=zimsmtp.logix.in  port=587
+2026-04-15 17:25:57  INFO        Attempting login as vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-15 17:25:57  INFO        Login OK — sending to prasen.mhaskar@quantafic.com
+2026-04-15 17:25:57  INFO        SMTP accepted message for prasen.mhaskar@quantafic.com via STARTTLS:587
+2026-04-15 17:25:57  INFO        SUCCESS  to=prasen.mhaskar@quantafic.com  port=STARTTLS:587
+2026-04-15 17:33:14  INFO      ── Sending email ──  to=prasen.mhaskar@quantafic.com  from=vaishnavi.kapadi@quantafic.com  subject='find the below attachment '  host=zimsmtp.logix.in  port=587
+2026-04-15 17:33:15  INFO        Attempting login as vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-15 17:33:15  INFO        Login OK — sending to prasen.mhaskar@quantafic.com
+2026-04-15 17:33:15  INFO        SMTP accepted message for prasen.mhaskar@quantafic.com via STARTTLS:587
+2026-04-15 17:33:15  INFO        SUCCESS  to=prasen.mhaskar@quantafic.com  port=STARTTLS:587
+2026-04-15 17:37:38  INFO        Attached file: adsense_buyer_network_metrics_2026-01-01_to_2026-02-05.csv (417521 bytes)
+2026-04-15 17:37:38  INFO      ── Sending email ──  to=prasen.mhaskar@quantafic.com  from=vaishnavi.kapadi@quantafic.com  subject='find the below attachment '  host=zimsmtp.logix.in  port=587
+2026-04-15 17:37:38  INFO        Attempting login as vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-15 17:37:38  INFO        Login OK — sending to prasen.mhaskar@quantafic.com
+2026-04-15 17:37:39  INFO        SMTP accepted message for prasen.mhaskar@quantafic.com via STARTTLS:587
+2026-04-15 17:37:39  INFO        SUCCESS  to=prasen.mhaskar@quantafic.com  port=STARTTLS:587
+2026-04-15 17:51:15  INFO        Attached file: sample_sales_email.xlsx (9342 bytes)
+2026-04-15 17:51:15  INFO        Attached file: creation_of_tables.sql (5273 bytes)
+2026-04-15 17:51:15  INFO      ── Sending email ──  to=prasen.mhaskar@quantafic.com  from=vaishnavi.kapadi@quantafic.com  subject='png '  host=zimsmtp.logix.in  port=587
+2026-04-15 17:51:15  INFO        Attempting login as vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-15 17:51:15  INFO        Login OK — sending to prasen.mhaskar@quantafic.com
+2026-04-15 17:51:16  INFO        SMTP accepted message for prasen.mhaskar@quantafic.com via STARTTLS:587
+2026-04-15 17:51:16  INFO        SUCCESS  to=prasen.mhaskar@quantafic.com  port=STARTTLS:587
+2026-04-15 18:14:10  INFO        Attached file: sample_sales_email.xlsx (9342 bytes)
+2026-04-15 18:14:10  INFO        Attached file: response_1775738037990.json (297 bytes)
+2026-04-15 18:14:10  INFO      ── Sending email ──  to=prasen.mhaskar@quantafic.com  from=vaishnavi.kapadi@quantafic.com  subject='sent the mail '  host=zimsmtp.logix.in  port=587
+2026-04-15 18:14:10  INFO        Attempting login as vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-15 18:14:10  INFO        Login OK — sending to prasen.mhaskar@quantafic.com
+2026-04-15 18:14:10  INFO        SMTP accepted message for prasen.mhaskar@quantafic.com via STARTTLS:587
+2026-04-15 18:14:10  INFO        SUCCESS  to=prasen.mhaskar@quantafic.com  port=STARTTLS:587
+2026-04-15 18:14:11  INFO        Attached file: sample_sales_email.xlsx (9342 bytes)
+2026-04-15 18:14:11  INFO        Attached file: response_1775738037990.json (297 bytes)
+2026-04-15 18:14:11  INFO      ── Sending email ──  to=arya.danech@quantafic.com  from=vaishnavi.kapadi@quantafic.com  subject='sent the mail '  host=zimsmtp.logix.in  port=587
+2026-04-15 18:14:11  INFO        Attempting login as vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-15 18:14:11  INFO        Login OK — sending to arya.danech@quantafic.com
+2026-04-15 18:14:12  INFO        SMTP accepted message for arya.danech@quantafic.com via STARTTLS:587
+2026-04-15 18:14:12  INFO        SUCCESS  to=arya.danech@quantafic.com  port=STARTTLS:587
+2026-04-15 18:14:12  INFO        Attached file: sample_sales_email.xlsx (9342 bytes)
+2026-04-15 18:14:12  INFO        Attached file: response_1775738037990.json (297 bytes)
+2026-04-15 18:14:12  INFO      ── Sending email ──  to=hariom.aher@quantafic.com  from=vaishnavi.kapadi@quantafic.com  subject='sent the mail '  host=zimsmtp.logix.in  port=587
+2026-04-15 18:14:12  INFO        Attempting login as vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-15 18:14:12  INFO        Login OK — sending to hariom.aher@quantafic.com
+2026-04-15 18:14:12  INFO        SMTP accepted message for hariom.aher@quantafic.com via STARTTLS:587
+2026-04-15 18:14:12  INFO        SUCCESS  to=hariom.aher@quantafic.com  port=STARTTLS:587
+2026-04-15 18:14:13  INFO        Attached file: sample_sales_email.xlsx (9342 bytes)
+2026-04-15 18:14:13  INFO        Attached file: response_1775738037990.json (297 bytes)
+2026-04-15 18:14:13  INFO      ── Sending email ──  to=vaishnavi.kapadi@quantafic.com  from=vaishnavi.kapadi@quantafic.com  subject='sent the mail '  host=zimsmtp.logix.in  port=587
+2026-04-15 18:14:13  INFO        Attempting login as vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-15 18:14:13  INFO        Login OK — sending to vaishnavi.kapadi@quantafic.com
+2026-04-15 18:14:14  INFO        SMTP accepted message for vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-15 18:14:14  INFO        SUCCESS  to=vaishnavi.kapadi@quantafic.com  port=STARTTLS:587
+2026-04-15 18:32:08  INFO      ── Sending email ──  to=prasen.mhaskar@quantafic.com  from=vaishnavi.kapadi@quantafic.com  subject='Prasen '  host=zimsmtp.logix.in  port=587
+2026-04-15 18:32:08  INFO        Attempting login as vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-15 18:32:08  INFO        Login OK — sending to prasen.mhaskar@quantafic.com
+2026-04-15 18:32:08  INFO        SMTP accepted message for prasen.mhaskar@quantafic.com via STARTTLS:587
+2026-04-15 18:32:08  INFO        SUCCESS  to=prasen.mhaskar@quantafic.com  port=STARTTLS:587
+2026-04-15 18:41:10  INFO      ── Sending email ──  to=prasen.mhaskar@quantafic.com  from=vaishnavi.kapadi@quantafic.com  subject='hello Prasen '  host=zimsmtp.logix.in  port=587
+2026-04-15 18:41:10  INFO        Attempting login as vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-15 18:41:10  INFO        Login OK — sending to prasen.mhaskar@quantafic.com
+2026-04-15 18:41:11  INFO        SMTP accepted message for prasen.mhaskar@quantafic.com via STARTTLS:587
+2026-04-15 18:41:11  INFO        SUCCESS  to=prasen.mhaskar@quantafic.com  port=STARTTLS:587
+2026-04-15 18:41:16  INFO      ── Sending email ──  to=arya.danech@quantafic.com  from=vaishnavi.kapadi@quantafic.com  subject='hello Arya'  host=zimsmtp.logix.in  port=587
+2026-04-15 18:41:16  INFO        Attempting login as vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-15 18:41:16  INFO        Login OK — sending to arya.danech@quantafic.com
+2026-04-15 18:41:16  INFO        SMTP accepted message for arya.danech@quantafic.com via STARTTLS:587
+2026-04-15 18:41:16  INFO        SUCCESS  to=arya.danech@quantafic.com  port=STARTTLS:587
+2026-04-15 18:41:21  INFO      ── Sending email ──  to=hariom.aher@quantafic.com  from=vaishnavi.kapadi@quantafic.com  subject='hello Hariom'  host=zimsmtp.logix.in  port=587
+2026-04-15 18:41:21  INFO        Attempting login as vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-15 18:41:21  INFO        Login OK — sending to hariom.aher@quantafic.com
+2026-04-15 18:41:22  INFO        SMTP accepted message for hariom.aher@quantafic.com via STARTTLS:587
+2026-04-15 18:41:22  INFO        SUCCESS  to=hariom.aher@quantafic.com  port=STARTTLS:587
+2026-04-15 18:41:27  INFO      ── Sending email ──  to=vaishnavi.kapadi@quantafic.com  from=vaishnavi.kapadi@quantafic.com  subject='hello Vaishnavi'  host=zimsmtp.logix.in  port=587
+2026-04-15 18:41:27  INFO        Attempting login as vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-15 18:41:27  INFO        Login OK — sending to vaishnavi.kapadi@quantafic.com
+2026-04-15 18:41:27  INFO        SMTP accepted message for vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-15 18:41:27  INFO        SUCCESS  to=vaishnavi.kapadi@quantafic.com  port=STARTTLS:587
+2026-04-15 18:53:30  INFO      ── Sending email ──  to=yati.k@quantafic.com  from=vaishnavi.kapadi@quantafic.com  subject='hello'  host=zimsmtp.logix.in  port=587
+2026-04-15 18:53:31  INFO        Attempting login as vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-15 18:53:32  INFO        Login OK — sending to yati.k@quantafic.com
+2026-04-15 18:53:33  INFO        SMTP accepted message for yati.k@quantafic.com via STARTTLS:587
+2026-04-15 18:53:33  INFO        SUCCESS  to=yati.k@quantafic.com  port=STARTTLS:587
+2026-04-16 12:14:25  INFO      ── Sending email ──  to=prasen.mhaskar@quantafic.com,arya.danech@quantafic.com  from=vaishnavi.kapadi@quantafic.com  subject='hello'  host=zimsmtp.logix.in  port=587
+2026-04-16 12:14:26  INFO        Attempting login as vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-16 12:14:26  INFO        Login OK — sending to prasen.mhaskar@quantafic.com,arya.danech@quantafic.com
+2026-04-16 12:14:26  INFO        SMTP accepted message for prasen.mhaskar@quantafic.com,arya.danech@quantafic.com via STARTTLS:587
+2026-04-16 12:14:27  INFO        SUCCESS  to=prasen.mhaskar@quantafic.com,arya.danech@quantafic.com  port=STARTTLS:587
+2026-04-16 12:14:32  INFO      ── Sending email ──  to=hariom.aher@quantafic.com  from=vaishnavi.kapadi@quantafic.com  subject='hello'  host=zimsmtp.logix.in  port=587
+2026-04-16 12:14:32  INFO        Attempting login as vaishnavi.kapadi@quantafic.com via STARTTLS:587
+2026-04-16 12:14:32  INFO        Login OK — sending to hariom.aher@quantafic.com
+2026-04-16 12:14:33  INFO        SMTP accepted message for hariom.aher@quantafic.com via STARTTLS:587
+2026-04-16 12:14:33  INFO        SUCCESS  to=hariom.aher@quantafic.com  port=STARTTLS:587

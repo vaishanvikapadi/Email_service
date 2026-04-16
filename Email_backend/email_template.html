@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{ subject }}</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes shimmer {
+      0%   { background-position: -200% center; }
+      100% { background-position: 200% center; }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.7; }
+    }
+    @keyframes slideInLeft {
+      from { opacity: 0; transform: translateX(-30px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #e8f0fe 0%, #f1f3f4 50%, #e8f4fd 100%);
+      font-family: 'Inter', Arial, sans-serif;
+    }
+
+    .wrapper {
+      width: 100%;
+      padding: 40px 0 60px;
+      background: linear-gradient(135deg, #e8f0fe 0%, #f1f3f4 50%, #e8f4fd 100%);
+    }
+
+    .email-card {
+      width: 620px;
+      max-width: 100%;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 40px rgba(26, 115, 232, 0.12), 0 2px 12px rgba(0,0,0,0.06);
+      animation: fadeInUp 0.6s ease both;
+    }
+
+    /* ── Header ── */
+    .header {
+      background: linear-gradient(135deg, #1a73e8 0%, #0d47a1 60%, #1565c0 100%);
+      background-size: 200% auto;
+      padding: 36px 44px 32px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      animation: fadeInDown 0.5s ease both;
+    }
+    .header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.08) 50%, transparent 100%);
+      background-size: 200% auto;
+      animation: shimmer 3s linear infinite;
+    }
+    .header-logo {
+      font-size: 28px;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: 1px;
+      margin: 0 0 6px;
+      position: relative;
+      z-index: 1;
+    }
+    .header-tagline {
+      font-size: 13px;
+      color: rgba(255,255,255,0.75);
+      margin: 0;
+      position: relative;
+      z-index: 1;
+      letter-spacing: 0.3px;
+    }
+
+    /* ── Accent bar ── */
+    .accent-bar {
+      height: 4px;
+      background: linear-gradient(90deg, #fbbc04, #ea4335, #34a853, #1a73e8);
+      background-size: 300% auto;
+      animation: shimmer 4s linear infinite;
+    }
+
+    /* ── Meta row (To / CC) ── */
+    .meta-row {
+      background: #f8faff;
+      padding: 14px 44px;
+      border-bottom: 1px solid #e8f0fe;
+      animation: fadeInDown 0.6s 0.1s ease both;
+      opacity: 0;
+      animation-fill-mode: forwards;
+    }
+    .meta-item {
+      display: inline-block;
+      font-size: 12.5px;
+      color: #5f6368;
+      margin-right: 24px;
+    }
+    .meta-label {
+      font-weight: 600;
+      color: #1a73e8;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-size: 11px;
+    }
+
+    /* ── Body ── */
+    .body-section {
+      padding: 36px 44px 28px;
+      animation: fadeInUp 0.6s 0.2s ease both;
+      opacity: 0;
+      animation-fill-mode: forwards;
+    }
+
+    .greeting {
+      font-size: 17px;
+      font-weight: 600;
+      color: #202124;
+      margin: 0 0 20px;
+      padding-bottom: 14px;
+      border-bottom: 2px solid #e8f0fe;
+      animation: slideInLeft 0.5s 0.3s ease both;
+      opacity: 0;
+      animation-fill-mode: forwards;
+    }
+
+    .body-content {
+      font-size: 15px;
+      color: #3c4043;
+      line-height: 1.75;
+      animation: fadeInUp 0.5s 0.35s ease both;
+      opacity: 0;
+      animation-fill-mode: forwards;
+    }
+
+    /* ── Divider ── */
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #e8f0fe 20%, #1a73e8 50%, #e8f0fe 80%, transparent);
+      margin: 28px 0;
+    }
+
+    /* ── Signature ── */
+    .signature-block {
+      animation: fadeInUp 0.5s 0.45s ease both;
+      opacity: 0;
+      animation-fill-mode: forwards;
+    }
+    .sig-warmly {
+      font-size: 14px;
+      color: #5f6368;
+      margin: 0 0 10px;
+      font-style: italic;
+    }
+    .sig-name {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1a73e8;
+      margin: 0 0 3px;
+    }
+    .sig-position {
+      font-size: 13px;
+      color: #5f6368;
+      margin: 2px 0;
+    }
+    .sig-contact {
+      font-size: 13px;
+      color: #3c4043;
+      margin: 5px 0 0;
+    }
+    .sig-contact a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+
+    /* ── CTA Button ── */
+    .cta-wrapper {
+      text-align: center;
+      margin: 28px 0 8px;
+      animation: fadeInUp 0.5s 0.4s ease both;
+      opacity: 0;
+      animation-fill-mode: forwards;
+    }
+    .cta-btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #1a73e8, #0d47a1);
+      color: #ffffff !important;
+      text-decoration: none;
+      padding: 13px 36px;
+      border-radius: 50px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      box-shadow: 0 4px 16px rgba(26,115,232,0.35);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 22px rgba(26,115,232,0.45);
+    }
+
+    /* ── Footer ── */
+    .footer {
+      background: linear-gradient(135deg, #f8faff 0%, #f1f3f4 100%);
+      padding: 22px 44px;
+      text-align: center;
+      border-top: 1px solid #e8f0fe;
+      animation: fadeInUp 0.5s 0.55s ease both;
+      opacity: 0;
+      animation-fill-mode: forwards;
+    }
+    .footer p {
+      margin: 0;
+      font-size: 12px;
+      color: #9aa0a6;
+      line-height: 1.6;
+    }
+    .footer-brand {
+      font-weight: 700;
+      color: #1a73e8;
+    }
+  </style>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="email-card">
+
+    <!-- Header -->
+    <div class="header">
+      <p class="header-logo">Quantafic</p>
+      <p class="header-tagline">quantafic.com</p>
+    </div>
+
+    <!-- Animated accent bar -->
+    <div class="accent-bar"></div>
+
+    <!-- To / CC meta row -->
+    {% if to_email or cc_email %}
+    <div class="meta-row">
+      {% if to_email %}
+      <span class="meta-item">
+        <span class="meta-label">To&nbsp;&nbsp;</span> {{ to_email }}
+      </span>
+      {% endif %}
+      {% if cc_email %}
+      <span class="meta-item">
+        <span class="meta-label">CC&nbsp;&nbsp;</span> {{ cc_email }}
+      </span>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    <!-- Body Section -->
+    <div class="body-section">
+
+      <!-- Personalised Greeting -->
+      {% if greeting %}
+      <p class="greeting">{{ greeting }}</p>
+      {% elif Name %}
+      <p class="greeting">Dear {{ Name }},</p>
+      {% endif %}
+
+      <!-- Main Content -->
+      <div class="body-content">
+        {{ body }}
+      </div>
+
+      <!-- Divider -->
+      <div class="divider"></div>
+
+      <!-- Signature -->
+      <div class="signature-block">
+        <p class="sig-warmly">Warm regards,</p>
+        <p class="sig-name">{{ sender_name }}</p>
+        {% if sender_position %}
+        <p class="sig-position">{{ sender_position }}</p>
+        {% endif %}
+        {% if sender_phone %}
+        <p class="sig-contact">
+          &#128222;&nbsp;<a href="tel:{{ sender_phone }}">{{ sender_phone }}</a>
+        </p>
+        {% endif %}
+        {% if sender_email %}
+        <p class="sig-contact">
+          &#9993;&nbsp;<a href="mailto:{{ sender_email }}">{{ sender_email }}</a>
+        </p>
+        {% endif %}
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>
+        &copy; 2026 <span class="footer-brand">Quantafic</span>. All rights reserved.<br/>
+        If you did not expect this email, please disregard it.
+      </p>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
