@@ -125,7 +125,7 @@ def send_email_smtp(to_email, from_email, smtp_password, subject, body,
     html_part = MIMEText(modified_body, "html")
 
     if inline_images:
-        related = MIMEMultipart("related")
+        related = MIMEMultipart("related", type="text/html")
         alt = MIMEMultipart("alternative")
         alt.attach(html_part)
         related.attach(alt)
